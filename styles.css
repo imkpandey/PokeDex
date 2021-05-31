@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Nunito:600');
+
+body{
+    height: 100%;
+    background: linear-gradient(to bottom right,#024,#402);
+}
+
+.container{
+    max-width: 350px;
+    height: 100%;
+    font-family: Cinzel Decorative, sans-serif;
+}
+
+.card{
+    max-width: 400px;
+    border: 1px solid #ffdd56;
+    border-radius: 20px;
+    padding-bottom: 0.5rem;
+    background: none;
+}
+
+.name{
+    letter-spacing: 3px;
+}
+
+.details{
+    font-size: 150%;
+
+}
+.icon{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress{
+    text-decoration-color: #ffdd56;
+    width: 200px;
+    height: 5px;
+
+}
+
+.progress-bar{
+    text-decoration-color: #ffdd56;
+
+}
+
+.hp{
+    margin-bottom: 20px;
+}
+
+.atk{
+    margin-bottom: 20px;
+}
+
+.def{
+    margin-bottom: 20px;
+}
+
+
