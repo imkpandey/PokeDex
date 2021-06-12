@@ -35,7 +35,7 @@ const updateUI = (data) => {
     `;
     
 
-    let imageSrc = `images/${stats.id}.png`;
+    let imageSrc = `https://raw.githubusercontent.com/imkpandey/PokeDex/assets/images/${stats.id}.png`;
     image.setAttribute("src", imageSrc);
 
 
@@ -43,7 +43,7 @@ const updateUI = (data) => {
     icon.innerHTML = `<h5 class="type mx-5">TYPE</h5>`;
     const types = stats.types.map(type => type.type.name);
     types.forEach(type => {
-        const iconSrc = `types/${type}.png`;
+        const iconSrc = `https://raw.githubusercontent.com/imkpandey/PokeDex/assets/types/${type}.png`;
         icon.innerHTML += `
         <img src="${iconSrc}" height=30px>
         `; 
